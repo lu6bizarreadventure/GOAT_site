@@ -1,6 +1,6 @@
 # SUPER SITE DE GOAT
 
 ## Contexte 
-Le but de ce site est de tester divers fonctionalités afin de m'entrainer
+Le but de ce site est de tester divers fonctionalitées afin de m'entrainer
 
 
