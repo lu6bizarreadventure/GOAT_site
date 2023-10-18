@@ -1,15 +1,22 @@
-import Vue from 'vue'
-import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import { createRouter, createWebHistory } from 'vue-router'
+import HomeView from '../views/HomeView.vue'
 
-Vue.use(Router)
-
-export default new Router({
+const router = createRouter({
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'home',
+      component: HomeView
+    },
+  ],
+  scrollBehavior (to, from, savedPosition) {
+    if (savedPosition){
+      return savedPosition
+    }else{
+      return { x:0, y:0 }
     }
-  ]
+  },
 })
+
+export default router
