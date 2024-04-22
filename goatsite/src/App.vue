@@ -12,5 +12,5 @@ import HomeView from './views/HomeView.vue'
   <HomeView></HomeView>
 </template>
 
-<style>
+<style scoped>
 </style>

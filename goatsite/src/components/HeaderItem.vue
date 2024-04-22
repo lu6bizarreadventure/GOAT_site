@@ -9,8 +9,11 @@
 
 <style>
 .header{
-    background-color: green;
-    height: 10%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #2C923F;
+    height: 16%;
     width: 100%;
 }
 </style>
